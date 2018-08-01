@@ -1,13 +1,13 @@
 // unused reports unused identifiers (types, functions, ...) in your
 // code.
-package main // import "honnef.co/go/tools/cmd/unused"
+package main // import "github.com/jyu617/go-tools/cmd/unused"
 
 import (
 	"log"
 	"os"
 
-	"honnef.co/go/tools/lint/lintutil"
-	"honnef.co/go/tools/unused"
+	"github.com/jyu617/go-tools/lint/lintutil"
+	"github.com/jyu617/go-tools/unused"
 )
 
 var (

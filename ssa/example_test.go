@@ -14,8 +14,8 @@ import (
 	"os"
 
 	"golang.org/x/tools/go/loader"
-	"honnef.co/go/tools/ssa"
-	"honnef.co/go/tools/ssa/ssautil"
+	"github.com/jyu617/go-tools/ssa"
+	"github.com/jyu617/go-tools/ssa/ssautil"
 )
 
 const hello = `

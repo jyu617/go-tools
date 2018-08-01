@@ -1,10 +1,10 @@
 // gosimple detects code that could be rewritten in a simpler way.
-package main // import "honnef.co/go/tools/cmd/gosimple"
+package main // import "github.com/jyu617/go-tools/cmd/gosimple"
 import (
 	"os"
 
-	"honnef.co/go/tools/lint/lintutil"
-	"honnef.co/go/tools/simple"
+	"github.com/jyu617/go-tools/lint/lintutil"
+	"github.com/jyu617/go-tools/simple"
 )
 
 func main() {

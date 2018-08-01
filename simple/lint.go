@@ -1,5 +1,5 @@
 // Package simple contains a linter for Go source code.
-package simple // import "honnef.co/go/tools/simple"
+package simple // import "github.com/jyu617/go-tools/simple"
 
 import (
 	"go/ast"
@@ -9,9 +9,9 @@ import (
 	"reflect"
 	"strings"
 
-	"honnef.co/go/tools/internal/sharedcheck"
-	"honnef.co/go/tools/lint"
-	. "honnef.co/go/tools/lint/lintdsl"
+	"github.com/jyu617/go-tools/internal/sharedcheck"
+	"github.com/jyu617/go-tools/lint"
+	. "github.com/jyu617/go-tools/lint/lintdsl"
 
 	"golang.org/x/tools/go/types/typeutil"
 )

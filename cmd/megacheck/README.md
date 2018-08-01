@@ -6,7 +6,7 @@ separately.
 
 ## Installation
 
-    go get honnef.co/go/tools/cmd/megacheck
+    go get github.com/jyu617/go-tools/cmd/megacheck
 
 ## Usage
 

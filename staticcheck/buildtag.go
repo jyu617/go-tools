@@ -4,7 +4,7 @@ import (
 	"go/ast"
 	"strings"
 
-	. "honnef.co/go/tools/lint/lintdsl"
+	. "github.com/jyu617/go-tools/lint/lintdsl"
 )
 
 func buildTags(f *ast.File) [][]string {

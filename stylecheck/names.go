@@ -9,8 +9,8 @@ import (
 	"strings"
 	"unicode"
 
-	"honnef.co/go/tools/lint"
-	. "honnef.co/go/tools/lint/lintdsl"
+	"github.com/jyu617/go-tools/lint"
+	. "github.com/jyu617/go-tools/lint/lintdsl"
 )
 
 // commonInitialisms is a set of common initialisms.

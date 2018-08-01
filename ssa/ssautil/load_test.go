@@ -13,7 +13,7 @@ import (
 	"os"
 	"testing"
 
-	"honnef.co/go/tools/ssa/ssautil"
+	"github.com/jyu617/go-tools/ssa/ssautil"
 )
 
 const hello = `package main

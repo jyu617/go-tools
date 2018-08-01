@@ -1,9 +1,9 @@
-package main // import "honnef.co/go/tools/cmd/stylecheck"
+package main // import "github.com/jyu617/go-tools/cmd/stylecheck"
 import (
 	"os"
 
-	"honnef.co/go/tools/lint/lintutil"
-	"honnef.co/go/tools/stylecheck"
+	"github.com/jyu617/go-tools/lint/lintutil"
+	"github.com/jyu617/go-tools/stylecheck"
 )
 
 func main() {

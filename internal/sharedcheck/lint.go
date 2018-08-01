@@ -4,9 +4,9 @@ import (
 	"go/ast"
 	"go/types"
 
-	"honnef.co/go/tools/lint"
-	. "honnef.co/go/tools/lint/lintdsl"
-	"honnef.co/go/tools/ssa"
+	"github.com/jyu617/go-tools/lint"
+	. "github.com/jyu617/go-tools/lint/lintdsl"
+	"github.com/jyu617/go-tools/ssa"
 )
 
 func CheckRangeStringRunes(j *lint.Job) {

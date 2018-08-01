@@ -4,7 +4,7 @@ packages.
 # Installation
 
 ```
-go get honnef.co/go/tools/cmd/rdeps
+go get github.com/jyu617/go-tools/cmd/rdeps
 ```
 
 # Usage

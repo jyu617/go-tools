@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	st "honnef.co/go/tools/structlayout"
-	"honnef.co/go/tools/version"
+	st "github.com/jyu617/go-tools/structlayout"
+	"github.com/jyu617/go-tools/version"
 )
 
 var (

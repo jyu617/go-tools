@@ -3,8 +3,8 @@ package lint_test
 import (
 	"testing"
 
-	. "honnef.co/go/tools/lint"
-	"honnef.co/go/tools/lint/testutil"
+	. "github.com/jyu617/go-tools/lint"
+	"github.com/jyu617/go-tools/lint/testutil"
 )
 
 type testChecker struct{}
